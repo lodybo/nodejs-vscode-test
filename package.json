@@ -1,10 +1,10 @@
 {
   "name": "nodejs-vscode-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "express": "express"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lodybo/nodejs-vscode-test/issues"
   },
-  "homepage": "https://github.com/lodybo/nodejs-vscode-test#readme"
+  "homepage": "https://github.com/lodybo/nodejs-vscode-test#readme",
+  "devDependencies": {
+    "express-generator": "^4.13.4"
+  }
 }
